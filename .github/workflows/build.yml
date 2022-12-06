@@ -5,6 +5,7 @@ on:
     branches: [ idea222.x idea223.x ]
   pull_request:
     branches: [ idea222.x idea223.x ]
+  workflow_dispatch:
 
 jobs:
   build_and_test:
